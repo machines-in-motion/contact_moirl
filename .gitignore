@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+*.log
+MUJOCO_LOG.TXT
+.DS_Store
+
+# run outputs
+runs/
+
+# local jekyll build output
+docs/.sass-cache/
+docs/_site/

@@ -1,0 +1,22 @@
+title: "Contact-rich MO-IRL"
+description: "Recovering motor objectives from contact, without prescribing when it happens."
+remote_theme: pages-themes/cayman@v0.2.0
+baseurl: "/contact_moirl"
+url: ""
+plugins:
+  - jekyll-remote-theme
+
+header_pages:
+  - recordings.md
+  - sampler_inspector.html
+  - species_inspector.html
+  - code.md
+
+# The published site is the code page and the cross-morphology viewer. Only
+# build files are excluded; there are no withheld pages left.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - serve.sh
+  - serve_old.sh
+  - vendor
